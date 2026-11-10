@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Bem-vindo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="login-container">
+        <section class="login-card" aria-labelledby="login-title">
+
+            <header class="login-header">
+                <span class="eyebrow">ÁREA DE ACESSO</span>
+
+                <h1 id="login-title">
+                    Bem-vindo <span>de volta.</span>
+                </h1>
+
+                <p>
+                    Entre com suas credenciais para continuar.
+                </p>
+            </header>
+
+            <form class="login-form" method="post">
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email"
+                        required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha"
+                        autocomplete="current-password" required>
+                </div>
+
+                <button type="submit" class="btn-login">
+                    Entrar
+                    <span aria-hidden="true">→</span>
+                </button>
+
+            </form>
+
+            <footer class="login-footer">
+                <span class="footer-line"></span>
+                <p>SIMPLICIDADE EM CADA DETALHE</p>
+                <span class="footer-line"></span>
+            </footer>
+
+        </section>
+    </main>
+</body>
+
+</html>
